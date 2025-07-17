@@ -1,6 +1,5 @@
 import { abilities } from "../constants";
 
-
 const FeatureCards = () => (
   <div className="w-full padding-x-lg pt-5 pb-6">
     <div relative z-10 px-6 md:px-12>

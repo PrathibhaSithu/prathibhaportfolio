@@ -16,11 +16,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
-      <div className="border-t text-sm text-gray-500 py-4 px-4 max-w-6xl mx-auto flex flex-col sm:flex-row justify-between">
+      <div className="border-t text-sm text-[#8C715A] py-4 px-4 max-w-6xl mx-auto flex flex-col sm:flex-row justify-between">
         <p>© Copyright by Prathibha Sithumini. All rights reserved.</p>
         <div className="flex gap-4 mt-2 sm:mt-0">
-          
         </div>
       </div>
     </footer>
