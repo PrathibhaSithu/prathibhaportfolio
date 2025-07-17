@@ -1,4 +1,39 @@
-import Creative from "/images/hero/creative.svg"
+import Creative from "/images/hero/creative.svg";
+import Develop from "/images/hero/develop.svg";
+import Designs from "/images/hero/designs.svg";
+import Code from "/images/hero/code.svg";
+import Idea from "/images/hero/ideas.svg";
+import Communication from "/images/communication.png";
+import Leadership from "/images/leadership.png";
+import ProblemSolve from "/images/problemsolve.png";
+import Quality from "/images/quality.png";
+import TimeManagement from "/images/timemanagement.png";
+import TeamWork from "/images/teamwork.png";
+import Creativity from "/images/creative.png";
+import html from "/images/logos/html.png";
+import react from "/images/logos/react.png";
+import vuejs from "/images/logos/vuejs.png";
+import css from "/images/logos/css.png";
+import tailwind from "/images/logos/TailwindCSS.png";
+import js from "/images/logos/js.png";
+import three from "/images/logos/three.png";
+import selenium from "/images/logos/Selenium.png";
+import postman from "/images/logos/Postman.png";
+import flutter from "/images/logos/Flutter.png";
+import dart from "/images/logos/Dart.png";
+import kotlin from "/images/logos/Kotlin.png";
+import java from "/images/logos/Java.png";
+import firebase from "/images/logos/Firebase.png";
+import figma from "/images/logos/Figma.png";
+import canva from "/images/logos/Canva.png";
+import github from "/images/logos/github.png";
+import gitlab from "/images/logos/GitLab.png";
+import illustrator from "/images/logos/AI.png";
+import vscode from "/images/logos/vscode.png";
+import androidStudio from "/images/logos/AndroidStudio.png";
+
+
+// import from "";
 const navLinks = [
   {
     name: "About",
@@ -28,13 +63,13 @@ const navLinks = [
 
 const words = [
   { text: "Creative", imgPath: Creative },
-  { text: "Develop", imgPath: "/images/hero/develop.svg" },
-  { text: "Designs", imgPath: "/images/hero/designs.svg" },
-  { text: "Code", imgPath: "/images/hero/code.svg" },
-  { text: "Ideas", imgPath: "/images/hero/ideas.svg" },
-  { text: "Testing", imgPath: "/images/hero/ideas.svg" },
-  { text: "Designs", imgPath: "/images/hero/designs.svg" },
-  { text: "Code", imgPath: "/images/hero/code.svg" },
+  { text: "Develop", imgPath: Develop },
+  { text: "Designs", imgPath: Designs },
+  { text: "Code", imgPath: Code },
+  { text: "Ideas", imgPath: Idea },
+  { text: "Testing", imgPath: Idea },
+  { text: "Designs", imgPath: Designs },
+  { text: "Code", imgPath: Code },
 ];
 
 const counterItems = [
@@ -46,121 +81,123 @@ const counterItems = [
 
 const abilities = [
   {
-    imgPath: "/images/communication.png",
+    imgPath: Communication,
     title: "Communication",
   },
   {
-    imgPath: "/images/leadership.png",
+    imgPath: Leadership,
     title: "Leadership",
   },
   {
-    imgPath: "/images/problemsolve.png",
+    imgPath: ProblemSolve,
     title: "Problem Solving",
   },
   {
-    imgPath: "/images/quality.png",
+    imgPath: Quality,
     title: "Quality Focus",
   },
   {
-    imgPath: "/images/timemanagement.png",
+    imgPath: TimeManagement,
     title: "Time Management",
   },
   {
-    imgPath: "/images/teamwork.png",
+    imgPath: TeamWork,
     title: "Team Work",
   },
   {
-    imgPath: "/images/creative.png",
+    imgPath: Creativity,
     title: "Creative",
   },
 ];
 
+
 const techStackImgs = [
-  {
-    name: "HTML",
-    imgPath: "/images/logos/html.png",
+  { 
+    name: "HTML", 
+    imgPath: html 
   },
-  {
-    name: "React JS",
-    imgPath: "/images/logos/react.png",
+  { 
+    name: "React JS", 
+    imgPath: react 
   },
-  {
-    name: "Vue JS",
-    imgPath: "/images/logos/vuejs.png",
+  { 
+    name: "Vue JS", 
+    imgPath: vuejs 
   },
-  {
-    name: "CSS",
-    imgPath: "/images/logos/css.png",
+  { 
+    name: "CSS", 
+    imgPath: css 
   },
-  {
-    name: "Tailwind CSS",
-    imgPath: "/images/logos/TailwindCSS.png",
+  { 
+    name: "Tailwind CSS", 
+    imgPath: tailwind 
   },
-  {
-    name: "JavaScript",
-    imgPath: "/images/logos/js.png",
+  { 
+    name: "JavaScript", 
+    imgPath: js 
   },
-  {
-    name: "Three JS",
-    imgPath: "/images/logos/three.png",
+  { 
+    name: "Three JS", 
+    imgPath: three 
   },
-  {
-    name: "Selenium",
-    imgPath: "/images/logos/Selenium.png",
+  { 
+    name: "Selenium", 
+    imgPath: selenium 
   },
-  {
-    name: "Postman",
-    imgPath: "/images/logos/Postman.png",
+  { 
+    name: "Postman", 
+    imgPath: postman 
   },
-  {
-    name: "Flutter",
-    imgPath: "/images/logos/Flutter.png",
+  { 
+    name: "Flutter", 
+    imgPath: flutter 
   },
-  {
-    name: "Dart",
-    imgPath: "/images/logos/Dart.png",
+  { 
+    name: "Dart", 
+    imgPath: dart 
   },
-  {
-    name: "Kotlin",
-    imgPath: "/images/logos/Kotlin.png",
+  { 
+    name: "Kotlin", 
+    imgPath: kotlin 
   },
-  {
-    name: "Java Mobile",
-    imgPath: "/images/logos/Java.png",
+  { 
+    name: "Java Mobile", 
+    imgPath: java 
   },
-  {
-    name: "Firebase Database",
-    imgPath: "/images/logos/Firebase.png",
+  { 
+    name: "Firebase Database", 
+    imgPath: firebase 
   },
-  {
-    name: "Figma",
-    imgPath: "/images/logos/Figma.png",
+  { 
+    name: "Figma", 
+    imgPath: figma 
   },
-  {
-    name: "Canva",
-    imgPath: "/images/logos/Canva.png",
+  { 
+    name: "Canva", 
+    imgPath: canva 
   },
-  {
-    name: "GitHub",
-    imgPath: "/images/logos/github.png",
+  { 
+    name: "GitHub", 
+    imgPath: github 
   },
-  {
-    name: "GitLab",
-    imgPath: "/images/logos/GitLab.png",
+  { 
+    name: "GitLab", 
+    imgPath: gitlab 
   },
-  {
-    name: "Adobe Illustrator",
-    imgPath: "/images/logos/AI.png",
+  { 
+    name: "Adobe Illustrator", 
+    imgPath: illustrator 
   },
-  {
-    name: "VsCode",
-    imgPath: "/images/logos/vscode.png",
+  { 
+    name: "VsCode", 
+    imgPath: vscode 
   },
-  {
-    name: "Android Studio",
-    imgPath: "/images/logos/AndroidStudio.png",
+  { 
+    name: "Android Studio", 
+    imgPath: androidStudio 
   },
 ];
+
 
 const expCards = [
   {
