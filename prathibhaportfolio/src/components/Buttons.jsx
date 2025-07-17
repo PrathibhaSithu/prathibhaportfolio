@@ -1,10 +1,11 @@
+import downArrow from "/images/arrow-down.svg";
 const Buttons = ({ text, className, id }) => {
   return (
     <a
       onClick={(e) => {
         e.preventDefault(); 
 
-        const target = document.getElementById("counter");
+        const target = document.getElementById("about");
 
         if (target && id) {
           const offset = window.innerHeight * 0.15; 
@@ -22,7 +23,7 @@ const Buttons = ({ text, className, id }) => {
         <div className="bg-circle" />
         <p className="text">{text}</p>
         <div className="arrow-wrapper">
-          <img src="/images/arrow-down.svg" alt="arrow" />
+          <img src={downArrow} alt="arrow" />
         </div>
       </div>
     </a>
