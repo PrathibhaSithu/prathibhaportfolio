@@ -1,3 +1,4 @@
+import Creative from "/images/hero/creative.svg"
 const navLinks = [
   {
     name: "About",
@@ -26,7 +27,7 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Creative", imgPath: "/images/hero/creative.svg" },
+  { text: "Creative", imgPath: Creative },
   { text: "Develop", imgPath: "/images/hero/develop.svg" },
   { text: "Designs", imgPath: "/images/hero/designs.svg" },
   { text: "Code", imgPath: "/images/hero/code.svg" },
