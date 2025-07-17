@@ -44,9 +44,6 @@ import university from "/images/university.png";
 import diploma from "/images/diploma.png";
 import highschool from "/images/highschool.png";
 
-
-
-// import from ;
 const navLinks = [
   {
     name: "About",
@@ -286,8 +283,6 @@ const education = [
     description: "St. Joseph's Girls Collage, Engineering Technology, 2019",
   },
 ];
-
-
 
 export {
   words,
