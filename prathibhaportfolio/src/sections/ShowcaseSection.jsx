@@ -3,14 +3,29 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
+import HEMS from "/images/projects/hems.jpg";
+import PetStore from "/images/projects/petshop.png";
+import LibraryApp from "/images/projects/books.jpg" ;
+import VoyageLK from "/images/projects/voyagelk.jpg";
+import MiniPortfolio from "/images/projects/miniport.png";
+import VehicleReg from "/images/projects/vehiclereg.png";
+import EcoClean from "/images/projects/ecoclean.jpg";
+import StarAni from "/images/projects/Starfieldani.png";
+import MushroomPage from "/images/projects/mushroom.png";
+import LoverStore from "/images/projects/lovers.png";
+import WebClock from "/images/projects/clock.png";
+import BusineesFE from "/images/projects/connecto.jpg";
+import BorderCard from "/images/projects/bordercards.png";
+import DessertShop from "/images/projects/dessertshop.png";
+import FashionStore from "/images/projects/onlfashion.jpg";
+import JScal from "/images/projects/cal.png";
+import TitleHeader from "../components/TitleHeader";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
   const sectionRef = useRef(null);
   const cardRefs = useRef([]);
-  // const rydeRef = useRef(null);
-  // const libraryRef = useRef(null);
-  // const ycDirectoryRef = useRef(null);
 
   cardRefs.current = [];
 
@@ -50,10 +65,11 @@ const AppShowcase = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
-        <div>
-            <h1 className="text-4xl md:text-5xl font-extrabold text-center text-white mb-8">
-             My Work Showcase
-            </h1>
+        <div className="w-full h-full md:px-10 px-5 mb-6">
+            <TitleHeader
+              title="My Work Showcase"
+              sub="Made with 💻 & ❤️ "
+            />
         </div>
 
         <div className="showcaselayout">
@@ -63,7 +79,7 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/projects/hems.jpg"
+                  src={HEMS}
                   alt="HEMS"
                 />
               </div>
@@ -84,7 +100,7 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
-                  src="/images/projects/vehiclereg.png" 
+                  src={VehicleReg} 
                   alt="Vehicle Registration"
                 />
               </div>
@@ -107,7 +123,7 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/projects/petshop.png"
+                  src={PetStore}
                   alt="Pet shop"
                 />
               </div>
@@ -128,7 +144,7 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
-                  src="/images/projects/books.jpg" 
+                  src={LibraryApp}
                   alt="Book Library Application" 
                 />
               </div>
@@ -151,13 +167,13 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/projects/voyagelk.jpg"
+                  src={VoyageLK}
                   alt="Voyage LK"
                 />
               </div>
-              <h2>Voyage LK</h2>
+              <h2>Voyage LK Mobile Application</h2>
               <h4>
-                Kotlin based mobile application project to help traveler to locate the places and find the nearest hotel and allow hotel owners to promote their hotels. 
+                Kotlin based project to help traveler to locate places, find nearest hotel and allow hotel owners to promote their hotels. 
               </h4>
               <a 
                 href="https://github.com/PrathibhaSithu/VoyageLK-Mobile-Application" 
@@ -172,7 +188,7 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
-                  src="/images/projects/miniport.png" 
+                  src={MiniPortfolio}
                   alt="Responsive Portfolio Website Template"
                 />
               </div>
@@ -189,15 +205,14 @@ const AppShowcase = () => {
               </a>
             </div>
           </div>
-
-          
+      
           {/* Eco Clean */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/projects/ecoclean.jpg"
-                  alt=""
+                  src={EcoClean}
+                  alt="Eco Clean Mobile App"
                 />
               </div>
               <h2>Eco Clean</h2>
@@ -217,8 +232,8 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img 
-                  src="/images/projects/Starfieldani.png" 
-                  alt="" 
+                  src={StarAni} 
+                  alt="Star Animation" 
                 />
               </div>
               <h2>
@@ -244,8 +259,8 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/projects/mushroom.png"
-                  alt=""
+                  src={MushroomPage}
+                  alt="Mushroom"
                 />
               </div>
               <h2>Mushroom Home Page </h2>
@@ -264,7 +279,10 @@ const AppShowcase = () => {
             {/* Lover Store */}
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
-                <img src="/images/projects/lovers.png" alt="Lover Store" />
+                <img 
+                  src={LoverStore} 
+                  alt="Lover Store" 
+                />
               </div>
               <h2>Lover Store</h2>
               <h4>Simple Frontend design from html css and JS </h4>
@@ -283,13 +301,13 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/projects/clock.png"
+                  src={WebClock}
                   alt="Animated Web Clock"
                 />
               </div>
               <h2>Animated Web Clock</h2>
               <h4>
-                Simple and elegant design clock for web development biginers.
+                Simple and elegant design clock with js animation good for web development biginers.
               </h4>
               <a 
                 href="https://github.com/PrathibhaSithu/Digital_Clock_-" 
@@ -303,7 +321,10 @@ const AppShowcase = () => {
             {/* Business Frontend */}
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
-                <img src="/images/projects/connecto.jpg" alt="Dessertshop" />
+                <img 
+                  src={BusineesFE} 
+                  alt="Business Frontend" 
+                />
               </div>
               <h2>Business Frontend</h2>
               <h4>Simple Frontend design from html css </h4>
@@ -322,8 +343,8 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/projects/bordercards.png"
-                  alt="Online Fashion Store"
+                  src={BorderCard}
+                  alt="Gradient Boarder"
                 />
               </div>
               <h2>Gradiant Border Cards</h2>
@@ -342,7 +363,9 @@ const AppShowcase = () => {
             {/* The Desert Shop */}
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
-                <img src="/images/projects/dessertshop.png" alt="Dessertshop" />
+                <img src={DessertShop} 
+                alt="Dessertshop" 
+                />
               </div>
               <h2>The Desert Shop</h2>
               <h4>Simple Frontend design from html css </h4>
@@ -362,13 +385,13 @@ const AppShowcase = () => {
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/projects/onlfashion.jpg"
+                  src={FashionStore}
                   alt="Online Fashion Store"
                 />
               </div>
               <h2>Online Fashion Store</h2>
               <h4>
-                Web application with full CRUD using HTML CSS JS PHP.
+                Web application develop as a group project with full CRUD using HTML CSS JS PHP.
               </h4>
               <a 
                 href="https://github.com/PrathibhaSithu/Online-Fashion-Store.git" 
@@ -382,8 +405,8 @@ const AppShowcase = () => {
             {/* Java Script Calculator */}
             <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/cal.png" 
-                alt="YC Directory App" 
+                <img src={JScal} 
+                alt="JS Cal" 
               />
               </div>
               <h2>The Javascript Calculator</h2>

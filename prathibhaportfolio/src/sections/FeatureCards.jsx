@@ -1,7 +1,7 @@
 import { abilities } from "../constants";
 
 const FeatureCards = () => (
-  <div className="w-full padding-x-lg pt-5 pb-6">
+  <div className="bggradient w-full padding-x-lg pt-5 pb-6">
     <div relative z-10 px-6 md:px-12>
     <h1 className="text-4xl md:text-5xl font-extrabold drop-shadow-lg text-center text-[#fff] mb-8">
         Soft Skills

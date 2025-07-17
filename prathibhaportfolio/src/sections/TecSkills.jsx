@@ -27,7 +27,7 @@ const TecSkills = () => {
   });
 
   return (
-    <div id="skills" className="flex-center section-padding">
+    <div id="skills" className="flex-center section-padding mb-4">
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="How I Can Contribute & My Key Skills"
