@@ -21,6 +21,9 @@ section {
 
 @theme {
   --font-sans: "Mona Sans", sans-serif;
+  --color-black-50: #1c1c21;
+  --color-blue-50: #839cb5;
+  --color-blue-100: #2d2d38;
 }
 
 @layer utilities {
@@ -231,7 +234,11 @@ section {
   }
 
   .card-border {
-    @apply border-4 border-[#E87D26] bg-[#90705480];
+    @apply border-4 border-[#E87D26] bg-[#ffe8b1];
+  }
+
+  .marquee-item {
+    @apply md:w-40 w-32;
   }
 
   .timeline-wrapper {
@@ -272,6 +279,49 @@ section {
 
   .tech-icon-wrapper {
     @apply flex justify-center items-center w-15 relative;
+  }
+
+  form {
+    label {
+      @apply block text-white mb-2;
+    }
+
+    input,
+    textarea {
+      @apply w-full px-4 py-4 md:text-base text-sm placeholder:text-blue-50 bg-blue-100 rounded-md;
+    }
+
+    a {
+      @apply w-full py-4 bg-white text-black font-semibold rounded-md flex justify-center items-center gap-2;
+
+      img {
+        @apply inline-block;
+      }
+    }
+  }
+
+  .footer {
+    @apply my-10 md:mt-20 mt-10 text-white px-5 md:px-20 xl:px-20 flex items-center justify-center;
+
+    .footer-container {
+      @apply grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-0 w-full;
+    }
+
+    p {
+      @apply text-center md:text-start cursor-pointer;
+    }
+
+    .socials {
+      @apply flex items-center justify-center gap-5;
+
+      .icon {
+        @apply border border-black-50 bg-black flex justify-center items-center rounded-xl size-10 md:size-12 cursor-pointer transition-all duration-500 hover:bg-black-50;
+      }
+
+      img {
+        @apply inline-block;
+      }
+    }
   }
 }
 
@@ -347,6 +397,34 @@ section {
     rgba(255, 255, 255, 0) 100%
   );
 }
+
+/* marquee */
+.marquee {
+  width: 100dvw;
+  overflow: hidden;
+  position: relative;
+}
+.marquee-box {
+  display: flex;
+  align-items: center;
+  width: 200%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 60s linear infinite;
+}
+.marquee-item {
+  float: left;
+}
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+/* marquee end */
 
 .card {
   --start: 0;

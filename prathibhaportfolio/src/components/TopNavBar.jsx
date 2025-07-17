@@ -9,7 +9,7 @@ const TopNavBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const isScrolled = window.scrollY > 10;
+      const isScrolled = window.scrollY > 50;
       setScrolled(isScrolled);
     };
 
