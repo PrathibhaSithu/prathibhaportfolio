@@ -66,7 +66,7 @@ const AppShowcase = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <Starfield/> 
-      <div className="w-full">
+      <div className=" relative w-full">
         <div className="w-full h-full md:px-10 px-5 mb-6">
             <TitleHeader
               title="My Work Showcase"
