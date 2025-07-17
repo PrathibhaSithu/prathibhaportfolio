@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 
 import { navLinks } from "../constants";
 
+import MyCV from "/docs/PrathibhaSithuminiCV.pdf" ;
+
 const TopNavBar = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -36,7 +38,7 @@ const TopNavBar = () => {
           </ul>
         </nav>
 
-        <a href="/prathibhaportfolio/public/docs/PrathibhaSithuminiCV.pdf" download ="PrathibhaSithumini'sCV.pdf" className="download-btn group">
+        <a href={MyCV} download ="PrathibhaSithumini'sCV.pdf" className="download-btn group">
           <div className="inner">
             <span>Download CV</span>
           </div>
