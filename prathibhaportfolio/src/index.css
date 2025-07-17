@@ -36,6 +36,9 @@ section {
   .bggradient {
     @apply bg-gradient-to-br from-[#b69476] via-[#FFDA94] to-[#b69476];
   }
+  .revgrad{
+    @apply bg-gradient-to-br from-[#b69476] via-[#FFDA94] to-[#b69476];
+  }
 }
 
 @layer components {

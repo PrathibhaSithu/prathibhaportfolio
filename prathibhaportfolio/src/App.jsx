@@ -1,6 +1,5 @@
 import AnimatedCounter from "./components/AnimatedCounter";
 import FadeInSection from "./components/FadeInSection";
-import SmallSection from "./components/SmallSection";
 import TopNavBar from "./components/TopNavBar";
 import ContactMe from "./sections/ContactMe";
 import Education from "./sections/Education";
@@ -22,7 +21,6 @@ const App = () => (
     <FadeInSection><FeatureCards /></FadeInSection>
     <FadeInSection><AppShowcase/></FadeInSection>
     <FadeInSection><ContactMe /></FadeInSection>
-    <FadeInSection><SmallSection/></FadeInSection>
     <FadeInSection><Footer/></FadeInSection>
     
   </>
