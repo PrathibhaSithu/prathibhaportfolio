@@ -2,7 +2,7 @@
 
 const SmallSection = () => {
   return (
-    <div id="contacts" className=" py-12 px-4">
+    <div id="contacts" className="revgrad py-12 px-4">
       
 
       <div className="max-w-6xl mx-auto text-center md:mt-10 mt-12">
