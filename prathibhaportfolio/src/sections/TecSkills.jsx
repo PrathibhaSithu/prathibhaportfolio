@@ -3,6 +3,7 @@ import gsap from "gsap";
 
 import TitleHeader from "../components/TitleHeader";
 import { techStackImgs } from "../constants";
+import Starfield from "../components/Starfield";
 
 const TecSkills = () => {
   useGSAP(() => {
@@ -28,6 +29,7 @@ const TecSkills = () => {
 
   return (
     <div id="skills" className="flex-center section-padding mb-4">
+      <Starfield/>
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="How I Can Contribute & My Key Skills"

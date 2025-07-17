@@ -3,7 +3,7 @@ import * as THREE from "three";
 
 const Starfield = () => {
   const mountRef = useRef(null);
-  const rendererRef = useRef(null); // to track the renderer
+  const rendererRef = useRef(null); 
 
   useEffect(() => {
     const mount = mountRef.current;
