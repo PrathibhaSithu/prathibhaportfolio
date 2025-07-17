@@ -43,6 +43,10 @@ import facebook from "/images/socialicons/facebook.png";
 import university from "/images/university.png";
 import diploma from "/images/diploma.png";
 import highschool from "/images/highschool.png";
+import email from "/images/contacts/email.png";
+import call from "/images/contacts/call.png"
+import contlinkedin from "/images/contacts/linkedin.png";
+import comput from "/images/contacts/gitcom.png";
 
 const navLinks = [
   {
@@ -284,6 +288,29 @@ const education = [
   },
 ];
 
+const myContats = [
+  {
+    name: "Email",
+    imgPath: email,
+    description: "sithuminiprathiba@gmail.com",
+  },
+  {
+    name: "Mobile",
+    imgPath: call,
+    description: "0779233384",
+  },
+  {
+    name: "LinkedIn",
+    imgPath: contlinkedin,
+    description: "in/prathisithumini",
+  },
+  {
+    name: "GitHub",
+    imgPath: comput,
+    description: "",
+  },
+];
+
 export {
   words,
   abilities,
@@ -293,4 +320,5 @@ export {
   techStackImgs,
   navLinks,
   education,
+  myContats,
 };
