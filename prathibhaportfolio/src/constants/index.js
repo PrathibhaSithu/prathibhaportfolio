@@ -31,9 +31,22 @@ import gitlab from "/images/logos/GitLab.png";
 import illustrator from "/images/logos/AI.png";
 import vscode from "/images/logos/vscode.png";
 import androidStudio from "/images/logos/AndroidStudio.png";
+import JobImg11 from "/images/webdev.png";
+import JobImg12 from "/images/Frontend Developer.png";
+import JobImage01 from "/images/mobileapp.png";
+import JobImage02 from "/images/mobileappdev.png";
+import githublink from "/images/socialicons/github.png";
+import linkedin from "/images/socialicons/linkedin.png";
+import googledev from "/images/socialicons/googledev.png";
+import instagram from "/images/socialicons/instagram.png";
+import facebook from "/images/socialicons/facebook.png";
+import university from "/images/university.png";
+import diploma from "/images/diploma.png";
+import highschool from "/images/highschool.png";
 
 
-// import from "";
+
+// import from ;
 const navLinks = [
   {
     name: "About",
@@ -109,7 +122,6 @@ const abilities = [
     title: "Creative",
   },
 ];
-
 
 const techStackImgs = [
   { 
@@ -198,12 +210,11 @@ const techStackImgs = [
   },
 ];
 
-
 const expCards = [
   {
     description: "ITMD Ministry of finance Sri Lanka, worked on designing and developing user-friendly web interfaces for internal government portals in a structured government IT environment.",
-    imgPath: "/images/webdev.png",
-    logoPath: "/images/Frontend Developer.png",
+    imgPath: JobImg11,
+    logoPath: JobImg12,
     title: "Frontend Developer",
     date: "Auguest 2024 - Present",
     responsibilities: [
@@ -217,8 +228,8 @@ const expCards = [
   },
   {
     description: "Jacklup Solutions, work as a mobile app developer, focusing on creating user-friendly and efficient mobile applications for various clients.",
-    imgPath: "/images/mobileapp.png",
-    logoPath: "/images/mobileappdev.png",
+    imgPath: JobImage01,
+    logoPath: JobImage02,
     title: "Mobile Application Developer",
     date: "February 2024 - July 2024",
     responsibilities: [
@@ -233,50 +244,49 @@ const expCards = [
 const socialImgs = [
   {
     name: "github",
-    imgPath: "/images/socialicons/github.png",
+    imgPath: githublink,
     link: "https://github.com/PrathibhaSithu",
   },
   {
     name: "linkedin",
-    imgPath: "/images/socialicons/linkedin.png",
+    imgPath: linkedin,
     link: "https://www.linkedin.com/in/prathisithumini",
   },
   {
     name: "google dev",
-    imgPath: "/images/socialicons/googledev.png",
+    imgPath: googledev,
     link: "https://g.dev/prathibhasithumini_dev",
   },
   {
     name: "instagram",
-    imgPath: "/images/socialicons/instagram.png",
+    imgPath: instagram,
     link: "https://www.instagram.com/prathibhasithumini/",
   },
   {
     name: "facebook",
-    imgPath: "/images/socialicons/facebook.png",
+    imgPath: facebook,
     link: "https://www.facebook.com/PrathibhaSithumini",
   },
 ];
 
-// http://192.168.231.50/
-
 const education = [
   {
-    icon: "/images/university.png", 
+    icon: university,
     title: "Bachelor's Degree",
-    description: "B.Sc. in Computer Science, XYZ University, 2021",
+    description: "B.Sc. in Information Technology, SLIIT University, 2025",
   },
   {
-    icon: "/images/diploma.png",
-    title: "Master's Degree",
-    description: "M.Sc. in Software Engineering, ABC Institute, 2023",
+    icon: diploma,
+    title: "Diploma",
+    description: "Level 5 Diploma in ICT, VTA, 2022",
   },
   {
-    icon: "/images/highschool.png",
-    title: "High School",
-    description: "ABC High School, Science Major, 2017",
+    icon: highschool,
+    title: "School",
+    description: "St. Joseph's Girls Collage, Engineering Technology, 2019",
   },
 ];
+
 
 
 export {
