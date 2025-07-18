@@ -36,7 +36,7 @@ Welcome to my personal portfolio website! This project showcases my skills, Expe
    npm install
 
    npm run dev
-
+```
 
 ## Feel free to connect with me:
 
