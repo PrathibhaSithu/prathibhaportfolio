@@ -26,11 +26,9 @@ Welcome to my personal portfolio website! This project showcases my skills, Expe
 
 ## Feel free to connect with me:
 
-    - 📧 Email: sithuminiprathiba@gmail.com
-
-    - 💼 LinkedIn: [PrathibhaSithumini](https://www.linkedin.com/in/prathisithumini)
-
-    - 🌐 Portfolio: [Portfolio](https://prathibhasithu.github.io/prathibhaportfolio/)
+- 📧 Email: sithuminiprathiba@gmail.com
+- 💼 LinkedIn: [PrathibhaSithumini](https://www.linkedin.com/in/prathisithumini)
+- 🌐 Portfolio: [Portfolio](https://prathibhasithu.github.io/prathibhaportfolio/)
 
 ## 🛠️ Installation
 
