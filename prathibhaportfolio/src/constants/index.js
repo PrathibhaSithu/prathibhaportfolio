@@ -307,7 +307,7 @@ const myContats = [
   {
     name: "GitHub",
     imgPath: comput,
-    description: "",
+    description: "github.com/PrathibhaSithu",
   },
 ];
 

@@ -16,13 +16,13 @@ export default function Footer() {
         </div>
       
         <div className="relative space-y-2">
-          <h4 className="text-3xl font-semibold">Contact</h4>
-          <p className="text-lg">📞 +94 077 923 3384</p>
-          <p className="text-lg">✉️ sithuminiprathiba@gmail.com</p>
+          <h4 className="text-3xl font-bold">Contact</h4>
+          <p className="text-lg font-bold">📞 +94 077 923 3384</p>
+          <p className="text-lg font-bold">✉️ sithuminiprathiba@gmail.com</p>
         </div>
       </div>
 
-      <div className="border-t text-sm text-[#fff] py-4 px-4 max-w-6xl mx-auto flex flex-col sm:flex-row justify-between">
+      <div className="border-t text-sm font-bold text-[#fff] py-4 px-4 max-w-6xl mx-auto flex flex-col sm:flex-row justify-between">
         <p>© Copyright by Prathibha Sithumini. All rights reserved.</p>
         <div className="flex gap-4 mt-2 sm:mt-0">
         </div>
