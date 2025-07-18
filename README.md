@@ -24,7 +24,13 @@ Welcome to my personal portfolio website! This project showcases my skills, Expe
 
 ## ⭐ If you like this project, don't forget to star the repository! ⭐
 
+## Feel free to connect with me:
 
+    - 📧 Email: sithuminiprathiba@gmail.com
+
+    - 💼 LinkedIn: [PrathibhaSithumini](https://www.linkedin.com/in/prathisithumini)
+
+    - 🌐 Portfolio: [Portfolio](https://prathibhasithu.github.io/prathibhaportfolio/)
 
 ## 🛠️ Installation
 
@@ -36,13 +42,5 @@ Welcome to my personal portfolio website! This project showcases my skills, Expe
    npm install
 
    npm run dev
-   
+
     ```
-
-## Feel free to connect with me:
-
-    - 📧 Email: sithuminiprathiba@gmail.com
-
-    - 💼 LinkedIn: [PrathibhaSithumini](https://www.linkedin.com/in/prathisithumini)
-
-    - 🌐 Portfolio: [Portfolio](https://prathibhasithu.github.io/prathibhaportfolio/)
