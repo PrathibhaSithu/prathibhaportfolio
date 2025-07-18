@@ -19,7 +19,7 @@ Welcome to my personal portfolio website! This project showcases my skills, Expe
 - 🖼️ Hero section with animated intro
 - 🧩 About Me with smooth transitions
 - 🛠️ Projects showcase with hover effects
-- 📞 Contact Me with contact icons
+- 📞 Contact Me with contact details
 - 🌀 Scroll animations using GSAP
 
 ## ⭐ If you like this project, don't forget to star the repository! ⭐
@@ -40,10 +40,8 @@ Welcome to my personal portfolio website! This project showcases my skills, Expe
 
 ## Feel free to connect with me:
 
-    - 📧 Email: your.email@example.com
+    - 📧 Email: sithuminiprathiba@gmail.com
 
-    - 💼 LinkedIn: your-linkedin
+    - 💼 LinkedIn: [PrathibhaSithumini](https://www.linkedin.com/in/prathisithumini)
 
-    - 🌐 Portfolio: your-portfolio-link
-
-
+    - 🌐 Portfolio: [Portfolio](https://prathibhasithu.github.io/prathibhaportfolio/)
