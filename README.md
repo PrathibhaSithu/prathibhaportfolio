@@ -28,14 +28,15 @@ Welcome to my personal portfolio website! This project showcases my skills, Expe
 
 ## 🛠️ Installation
 
-1. **Clone the repo**
-   ```bash
+ **Clone the repo**
+   ```
    git clone https://github.com/PrathibhaSithu/prathibhaportfolio.git
    cd prathibhaportfolio
 
    npm install
 
    npm run dev
+   
     ```
 
 ## Feel free to connect with me:
