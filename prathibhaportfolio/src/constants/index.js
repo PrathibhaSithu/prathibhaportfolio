@@ -89,8 +89,8 @@ const words = [
 const counterItems = [
   { value: 1, suffix: "+", label: "Years of Experience" },
   { value: 20, suffix: "+", label: "Web Projects" },
-  { value: 16, suffix: "+", label: "Mobile App Projects" },
-  { value: 30, suffix: "", label: "UI / UX Projects" },
+  { value: 5, suffix: "+", label: "Mobile App Projects" },
+  { value: 30, suffix: "+", label: "UI / UX Projects" },
 ];
 
 const abilities = [
