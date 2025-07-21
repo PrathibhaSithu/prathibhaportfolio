@@ -222,7 +222,7 @@ section {
     }
 
     .arrow-wrapper {
-      @apply group-hover:bg-[#D6AD60] size-10 rounded-full absolute right-10 top-1/2 
+      @apply group-hover:bg-[#C98CF0] size-10 rounded-full absolute right-10 top-1/2 
         -translate-y-1/2 flex justify-center items-center overflow-hidden;
 
       img {
@@ -232,7 +232,7 @@ section {
   }
 
   .card-border {
-    @apply border-4 border-[#e82697] bg-[#ffe8b1];
+    @apply border-4 border-[#e82697] bg-[#F0DDF0];
   }
 
   .marquee-item {
@@ -248,7 +248,7 @@ section {
   }
 
   .timeline-logo {
-    @apply md:size-20 size-10 flex-none rounded-full flex justify-center items-center md:-translate-y-7 bg-[#782788fa] shadow-lg;
+    @apply md:size-20 size-10 flex-none rounded-full flex justify-center items-center md:-translate-y-7 border-2 border-[#E98BB8] bg-[#F0DDF0] shadow-lg;
   }
 
   .exp-card-wrapper {
@@ -352,7 +352,7 @@ section {
   background: linear-gradient(
     0deg,
     rgba(69, 222, 196, 0) 0%,
-    #62e0ff 25%,
+    #C98CF0 25%,
     #52aeff 37.51%,
     #fd5c79 62.83%,
     #6d45ce 92.91%
