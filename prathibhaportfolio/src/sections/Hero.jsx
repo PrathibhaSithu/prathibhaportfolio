@@ -26,7 +26,7 @@ const Hero = () => {
   });
 
   return (
-    <section id="hero" className="relative overflow-hidden bg-[#efd3ef]">
+    <section id="hero" className="relative overflow-hidden bg-[#DECCDB]">
       <div className="absolute top-0 left-0 z-10">
         <img src={DotImg} alt="bg dots" />
       </div>
