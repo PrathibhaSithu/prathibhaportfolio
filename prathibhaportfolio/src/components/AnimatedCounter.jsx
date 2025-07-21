@@ -39,13 +39,13 @@ const AnimatedCounter = () => {
   }, []);
 
   return (
-    <div id="about" ref={counterRef} className="padding-x-lg xl:mt-10 mt-32">
+    <div id="about" ref={counterRef} className="padding-x-lg xl:mt-10 mt-32 ">
       <div className="mx-auto grid-4-cols">
         {counterItems.map((item, index) => (
           <div
             key={index}
             ref={(el) => el && (countersRef.current[index] = el)}
-            className="bg-[#2E1E0F] border-4 border-[#FFF5DE] rounded-xl p-10 flex flex-col justify-center items-center shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            className="bg-[#795E55] border-4 border-[#C98CF0] rounded-xl p-10 flex flex-col justify-center items-center shadow-lg hover:shadow-2xl transition-shadow duration-300"
           >
             <div className="counter-number text-white text-5xl font-bold mb-2">
               {/* {item.suffix} */}

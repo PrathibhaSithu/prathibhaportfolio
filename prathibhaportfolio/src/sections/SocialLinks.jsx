@@ -2,7 +2,7 @@ import { socialImgs } from "../constants";
 
 const SocialLinks = () => {
   return (
-    <div className="bg-[#8C715A] fixed top-1/2 right-0 -translate-y-1/2 h-140 w-14 z-50 flex flex-col justify-center items-center py-4 space-y-4 rounded-4xl mr-5">
+    <div className="bg-[#E98BB8] border-2 border-[#cc00ff] fixed top-1/2 right-0 -translate-y-1/2 h-140 w-14 z-50 flex flex-col justify-center items-center py-4 space-y-4 rounded-4xl mr-5">
 
       {socialImgs.map(({ name, imgPath, link }) => (
         <a
