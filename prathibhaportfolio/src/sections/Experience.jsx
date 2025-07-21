@@ -56,7 +56,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="bggradient flex-center  md:mb-6  section-padding xl:px-0"
+      className="bggradient flex-center md:mb-6 section-padding xl:px-0"
     >
       <div className="w-full h-full md:px-20 px-5 mt-10">
         <TitleHeader
