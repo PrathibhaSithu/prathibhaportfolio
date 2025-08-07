@@ -77,8 +77,8 @@ const Hero = () => {
         </header>
 
         {/* RIGHT Section */}
-        <figure>
-          <div className="hero-3d-layout">
+        <figure className="flex items-center justify-center w-full relative">
+          <div className="hero-3d-layout relative flex flex-col items-center justify-center">
             <Starfield/>
             <img
               src={DP}
