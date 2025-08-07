@@ -83,7 +83,7 @@ const Hero = () => {
             <img
               src={DP}
               alt="Prathibha Sithumini"
-              className="relative z-10 md:w-[300px] w-[200px] rounded-full shadow-lg"
+              className="relative z-10 md:w-[300px] w-[200px] h-auto object-cover rounded-full shadow-lg"
             />
             <SocialLinks/>
           </div>
