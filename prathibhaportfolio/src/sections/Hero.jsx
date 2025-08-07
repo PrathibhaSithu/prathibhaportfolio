@@ -81,7 +81,7 @@ const Hero = () => {
           <div className="hero-3d-layout">
             <Starfield/>
             <img
-              src=""
+              src={DP}
               alt="Prathibha Sithumini"
               className="relative z-10 md:w-[300px] w-[200px] rounded-full shadow-lg"
             />
