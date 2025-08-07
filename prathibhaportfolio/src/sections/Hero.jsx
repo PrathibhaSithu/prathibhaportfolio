@@ -6,6 +6,8 @@ import { words } from "../constants";
 import Starfield from "../components/Starfield";
 import SocialLinks from "./SocialLinks";
 
+import DP from "/images/hero/me.jpg";
+
 import DotImg from "/images/bg.png";
 
 const Hero = () => {
@@ -78,11 +80,15 @@ const Hero = () => {
         <figure>
           <div className="hero-3d-layout">
             <Starfield/>
+            <img
+              src=""
+              alt="Prathibha Sithumini"
+              className="relative z-10 md:w-[300px] w-[200px] rounded-full shadow-lg"
+            />
             <SocialLinks/>
           </div>
         </figure>
       </div>
-
     </section>
   );
 };
