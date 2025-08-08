@@ -77,13 +77,13 @@ const Hero = () => {
         </header>
 
         {/* RIGHT Section */}
-        <figure className="flex items-center justify-center w-full relative">
-          <div className="hero-3d-layout relative flex flex-col items-center justify-center">
+        <figure>
+          <div className="hero-3d-layout">
             <Starfield/>
             <img
               src={DP}
               alt="Prathibha Sithumini"
-              className="relative z-10 md:w-[300px] w-[200px] h-auto object-cover rounded-full shadow-lg"
+              className="relative z-10 md:w-[300px] w-[200px] rounded-full shadow-lg"
             />
             <SocialLinks/>
           </div>
