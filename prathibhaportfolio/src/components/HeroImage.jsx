@@ -3,7 +3,7 @@ import DP from "/images/hero/me.jpg";
 
 const HeroImage = () => {
   return (
-    <div className="relative top-1/4  flex flex-col items-center justify-center ">
+    <div className="relative top-1/4 flex flex-col items-center ">
       <img
         src={DP}
         alt="Prathibha Sithumini"
