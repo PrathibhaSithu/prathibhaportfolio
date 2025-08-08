@@ -6,8 +6,6 @@ import { words } from "../constants";
 import Starfield from "../components/Starfield";
 import SocialLinks from "./SocialLinks";
 
-import DP from "/images/hero/me.jpg";
-
 import DotImg from "/images/bg.png";
 
 const Hero = () => {
