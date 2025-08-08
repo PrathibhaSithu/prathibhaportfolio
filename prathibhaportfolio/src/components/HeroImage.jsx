@@ -1,5 +1,5 @@
 
-import DP from "/images/hero/new-dp.png";
+import DP from "/images/hero/me.jpg";
 
 const HeroImage = () => {
   return (

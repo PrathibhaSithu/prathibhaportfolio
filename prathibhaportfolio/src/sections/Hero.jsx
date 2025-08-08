@@ -7,6 +7,7 @@ import Starfield from "../components/Starfield";
 import SocialLinks from "./SocialLinks";
 
 import DotImg from "/images/bg.png";
+import HeroImage from "../components/HeroImage";
 
 const Hero = () => {
   useGSAP(() => {
@@ -78,7 +79,7 @@ const Hero = () => {
         <figure>
           <div className="hero-3d-layout">
             <Starfield/>
-            
+            <HeroImage/>
             <SocialLinks/>
           </div>
         </figure>
