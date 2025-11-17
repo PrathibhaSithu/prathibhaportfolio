@@ -93,7 +93,6 @@ export default function Contact() {
           )}
         </div>
       </div>
-      <hr className="border-[#f0f0f0] mt-10 border-2" />
     </section>
     
   );
