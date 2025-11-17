@@ -1,4 +1,4 @@
-# 💼 My Portfolio Website
+# 💼 My Dev Portfolio Website
 
 Welcome to my personal portfolio website! This project showcases my skills, Experiences, Education, projects, and contact information in a modern, responsive layout built with **React JS**, **Tailwind CSS**, and **GSAP** for scroll animations.
 
@@ -6,7 +6,9 @@ Welcome to my personal portfolio website! This project showcases my skills, Expe
 
 - ⚛️ React
 - 🎨 Tailwind CSS
-- ✨ GSAP (GreenSock Animation Platform)
+- 🌀 GSAP for animations
+- 🎥 Lottiefiles for animated illustrations
+- 📧 easyemailjs for contact form
 - 📁 Static assets organized in `index.js`
 - 🌐 Responsive design for all devices
 
@@ -32,13 +34,15 @@ Welcome to my personal portfolio website! This project showcases my skills, Expe
 
 ## 🛠️ Installation
 
- **Clone the repo**
-   ```
-   git clone https://github.com/PrathibhaSithu/prathibhaportfolio.git
-   cd prathibhaportfolio
+**Clone the repo**
 
-   npm install
+````
+git clone https://github.com/PrathibhaSithu/prathibhaportfolio.git
+cd prathibhaportfolio
 
-   npm run dev
+npm install
 
-    ```
+npm run dev
+
+ ```
+````
