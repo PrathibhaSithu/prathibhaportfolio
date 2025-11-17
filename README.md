@@ -34,7 +34,7 @@ Welcome to my personal portfolio website! This project showcases my skills, Expe
 
 ## 🛠️ Installation
 
-**Clone the repo**
+<!-- **Clone the repo**
 
 ````
 git clone https://github.com/PrathibhaSithu/prathibhaportfolio.git
@@ -44,5 +44,8 @@ npm install
 
 npm run dev
 
- ```
-````
+ ``` -->
+
+```
+
+```
