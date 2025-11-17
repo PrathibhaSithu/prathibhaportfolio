@@ -42,7 +42,7 @@ const greeting = {
     "Dedicated Frontend Developer skilled in React.js, Vue.js, HTML, CSS, and Tailwind CSS, experienced in microservices architecture. AWS & Azure certified, passionate about performance, problem-solving, and creating seamless, scalable UI/UX experiences."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1upb7UunZ9m-ArmB3VOItlludNKv81odt/view?usp=sharing", 
+    "https://drive.google.com/file/d/19FB4gLOivxzngTj0tCjkt_2fevft4b4j/view?usp=drive_link", 
   displayGreeting: true
 };
 

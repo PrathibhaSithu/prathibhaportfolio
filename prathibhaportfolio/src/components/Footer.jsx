@@ -3,7 +3,7 @@ import { isHireable } from '../portfolio'
 
 export default function Footer(){
     return (
-        <footer className="mt-12 py-8 text-center text-slate-400">
+        <footer className="mt-1 py-2 text-center text-slate-400">
             <hr className="border-[#f0f0f0] mt-10 border-2" />
             <div className="max-w-5xl mx-auto px-4">
                 <div>{isHireable ? 'Open for opportunities' : 'Not hiring right now'}</div>

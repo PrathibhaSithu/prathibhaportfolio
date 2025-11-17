@@ -11,7 +11,6 @@ export default function Contact() {
     <section className="grid md:grid-cols-2 gap-4 items-center py-1" ref={ref} id="contact">
     <div className="reveal flex justify-center">
     <div className="relative rounded-lg bg-slate-900 p-4 w-full">
-
         {/* Top Window Header */}
         <div className="relative flex text-center">
             <div className="flex pl-3.5 pt-3">
@@ -67,7 +66,6 @@ export default function Contact() {
 
                 <div className="absolute inset-0 border-2 border-dashed border-blue-500 rounded-lg opacity-50 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-                {/* Flashing Dots */}
                 <div className="absolute -top-2 -right-2 w-4 h-4 bg-blue-500 rounded-full animate-ping shadow-lg"></div>
                 <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-blue-500 rounded-full animate-ping shadow-lg"></div>
                 <div className="absolute top-1/3 left-3 w-3 h-3 bg-blue-400 rounded-full animate-ping opacity-70"></div>
@@ -75,7 +73,7 @@ export default function Contact() {
             </a>
             )}        
         </div>
-        </div>
+      </div>
       </div>
 
       {/* Right Content: Animated Avatar */}
