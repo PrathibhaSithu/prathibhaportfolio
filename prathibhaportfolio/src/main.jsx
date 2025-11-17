@@ -1,15 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import "./App.scss";
-import App from './App.jsx';
-import * as serviceWorker from "./serviceWorker";
-
+import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <div>
+  <StrictMode>
     <App />
-  </div>,
+  </StrictMode>,
 )
-
-serviceWorker.unregister();

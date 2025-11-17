@@ -1,5 +1,23 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/Welcome Animation.json"; 
+import itmd from "./assets/images/itmd.png";
+import sliituni from "./assets/images/sliit.png";
+import vtaLogo from "./assets/images/vta.png"; 
+import sjbLogo from "./assets/images/sjb.jpg"; 
+import odysseyHolidayz from "./assets/images/projects/odysseyholidayz.png"; 
+import hems from "./assets/images/projects/hems.jpg"; 
+import cums from "./assets/images/projects/cums.png"; 
+import bbh from "./assets/images/projects/bbh.jpg"; 
+import ecoclean from "./assets/images/projects/ecoclean.jpg"; 
+import voyagelk from "./assets/images/projects/voyagelk.jpg"; 
+import petshop from "./assets/images/projects/petshop.png"; 
+import miniport from "./assets/images/projects/miniport.png"; 
+import awsCert from "./assets/images/aws.jpg"; 
+import mongodbCert from "./assets/images/mongodb.jpg"; 
+
+import myImage from "./assets/images/mypic.jpeg";
+import animatedSplash from "./assets/lottie/Work at home.json";
+import contactSplash from "./assets/lottie/Live chatbot.json";
 
 // Splash Screen
 
@@ -12,52 +30,85 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true 
 };
 
 const greeting = {
   username: "Prathibha Sithumini",
-  title: "Hi all, I'm Prathibha",
+  title: "Hello, I am",
+  greet: "Have a great day! ",
+  animated: animatedSplash,
   subTitle: emoji(
     "Dedicated Frontend Developer skilled in React.js, Vue.js, HTML, CSS, and Tailwind CSS, experienced in microservices architecture. AWS & Azure certified, passionate about performance, problem-solving, and creating seamless, scalable UI/UX experiences."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1upb7UunZ9m-ArmB3VOItlludNKv81odt/view?usp=sharing", 
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true
 };
 
-// Social Media Links
+// Social Media Links 
 
 const socialMediaLinks = {
-  github: "https://github.com/PrathibhaSithu",
-  linkedin: "https://www.linkedin.com/in/prathisithumini",
-  gmail: "sithuminiprathiba@gmail.com",
-  gitlab: "https://gitlab.com/sithuminiprathiba",
-  facebook: "https://www.facebook.com/PrathibhaSithumini",
-  stackoverflow: "https://stackoverflow.com/users/16870507/prathibha",
-  instagram: "https://www.instagram.com/prathibhasithumini/",
-  // https://developers.google.com/profile/u/prathibhasithumini_dev
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  socialMediaData: [
+    {
+      socialMediaName: "GitHub",
+      socialLink: "https://github.com/PrathibhaSithu",
+      fontAwesomeName: "fab fa-github"
+    },
+    {
+      socialMediaName: "LinkedIn",
+      socialLink: "https://www.linkedin.com/in/prathisithumini",
+      fontAwesomeName: "fab fa-linkedin-in"
+    },
+    {
+      socialMediaName: "Gmail",
+      socialLink: "sithuminiprathiba@gmail.com",
+      fontAwesomeName: "fas fa-envelope"
+    },
+    {
+      socialMediaName: "GitLab",
+      socialLink: "https://gitlab.com/sithuminiprathiba",
+      fontAwesomeName: "fab fa-gitlab"
+    },
+    {
+      socialMediaName: "Stack Overflow",
+      socialLink: "https://stackoverflow.com/users/16870507/prathibha",
+      fontAwesomeName: "fab fa-stack-overflow"
+    },
+    {
+      socialMediaName: "Facebook",
+      socialLink: "https://www.facebook.com/PrathibhaSithumini",
+      fontAwesomeName: "fab fa-facebook-f"
+    },
+    {
+      socialMediaName: "Instagram",
+      socialLink: "https://www.instagram.com/prathibhasithumini/",
+      fontAwesomeName: "fab fa-instagram"
+    },
+    // {
+    //   socialMediaName: "Google Developer",
+    //   socialLink: "https://developers.google.com/profile/u/prathibhasithumini_dev",
+    //   fontAwesomeName: ""
+    // },
+  ],  
+  display: true 
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
+  image: myImage,
   subTitle: "FRONTEND DEVELOPER WHO WANTS TO DEVELOP AWESOME WEB APPS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Develop responsive websites with best practices"),
+    emoji("Develop responsive websites with best practices"),
     emoji(
-      "⚡ Design and develop static websites"
+      "Design and develop static websites"
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -98,7 +149,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Postman",
-      fontAwesomeClassname: "fas fa-paper-plane"
+      fontAwesomeClassname: "fas fa-exchange-alt"
     },
     {
       skillName: "SQL",
@@ -164,7 +215,7 @@ const workExperiences = {
     {
       role: "Frontend Developer",
       company: "ITMD - Finance Ministry Sri Lanka",
-      companylogo: require("./assets/images/itmd.png"),
+      companylogo: itmd,
       date: "August 2024 - August 2025",
       desc: "Develop responsive front-end applications using Vue.js and designing user-friendly interfaces in Figma, manual testing to ensure functionality, usability, and quality across the applications",
       descBullets: [
@@ -173,7 +224,7 @@ const workExperiences = {
         "Manual Testing",
         "Connect Front-end and backend using REST API"
       ]
-    }
+    },
   ]
 };
 
@@ -184,18 +235,17 @@ const educationInfo = {
   schools: [
     {
       schoolName: "SLIIT University",
-      logo: require("./assets/images/sliit.png"),
+      logo: sliituni,
       subHeader: "BSc (Hons) in Information Technology",
       duration: "June 2021 - September 2025",
       desc: "Specializing in Information Technology",
       descBullets: [
-        "GPA: 2.8",
         "Coursework: Cloud Computing principles, AWS Certificate course, Web Developments, Database Administration, Networking, Quality Assurance Principles, Manual and Automation Testing, SE",
       ]
     },
     {
       schoolName: "Vocational Training Authority of Sri Lanka",
-      logo: require("./assets/images/vta.png"),
+      logo: vtaLogo,
       subHeader: "Information Technology Diploma",
       duration: "January 2020 - September 2022",
       desc: "Level 5 Diploma in Information Technology",
@@ -205,7 +255,7 @@ const educationInfo = {
     },
     {
       schoolName: "St.Joseph's Girls Collage - Kegalle",
-      logo: require("./assets/images/sjb.jpg"),
+      logo: sjbLogo,
       subHeader: "Engineering Technology",
       duration: "August 2019",
       desc: "Engineering Technology, Science for Technology, Information Technology",
@@ -217,55 +267,23 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: false,
-  experience: [
-    {
-      Stack: "Frontend Development", 
-      progressPercentage: "90%" 
-    },
-    {
-      Stack: "UI UX Designing",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
-
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Some big projects you have worked on
-
 const bigProjects = {
   title: "Projects",
   subtitle: "Some projects I have done in advance with 💻 & ❤️",
   projects: [
     {
-      image: require("./assets/images/projects/odysseyholidayz.png"),
+      image: odysseyHolidayz, 
       projectName: "Odyssey Holidayz ",
       projectDesc: "Odyssey Holidayz is a travel website designed and developed to showcase tour packages, destinations, and travel experiences across Sri Lanka. The site features a user-friendly interface, responsive design, and visually rich galleries, allowing visitors to explore customized tours, adventures, and travel services with ease and seamless navigation.",
       footerLink: [
         {
-          name: "Ongoing Project",
-          url: ""
+          name: "My Github",
+          url: "https://github.com/PrathibhaSithu"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/projects/hems.jpg"),
+      image: hems, 
       projectName: "Home Energy Management System",
       projectDesc: "For my final year research project, I developed an AI and IoT-based smart management system integrating solar energy, fire and gas detection, water, and electricity management. The project focused on automation and efficiency, utilizing ReactJS for the interface and emphasizing teamwork, version control, and project management through GitHub and effective collaboration.",
       footerLink: [
@@ -276,17 +294,29 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/projects/cums.png"),
+      image: cums, 
       projectName: "Common User Management System",
       projectDesc: "developed a Common User Management System with an admin panel for the Finance Ministry, enabling efficient management of user roles and permissions. The project was built using Vue.js and Tailwind CSS, ensuring a responsive and modern interface. I also performed manual testing and maintained version control using GitHub.",
+      footerLink: [
+        {
+          name: "My Github",
+          url: "https://github.com/PrathibhaSithu"
+        }
+      ]
     },
     {
-      image: require("./assets/images/projects/bbh.jpg"),
+      image: bbh, 
       projectName: "Benthota Baker Website Automation Testing",
       projectDesc: "I worked as a quality assurance engineer on the Bentota Baker Website, a bakery management platform developed using the MERN Stack. The project involved both manual and automated testing using Selenium to ensure functionality and reliability. I utilized GitHub for version control and collaboration, focusing on improving website performance, accuracy, and user experience.",
+      footerLink: [
+        {
+          name: "My Github",
+          url: "https://github.com/PrathibhaSithu"
+        }
+      ]
     },
     {
-      image: require("./assets/images/projects/ecoclean.jpg"),
+      image: ecoclean, 
       projectName: "Eco Clean Mobile Application",
       projectDesc: "I developed a mobile-based Garbage Management System featuring multi-user login and admin-level control to streamline waste collection and monitoring. The system integrated IoT devices with Arduino for real-time data tracking and used Firebase for backend management. Built with Flutter, the project emphasized smart automation and efficient city waste management.",
       footerLink: [
@@ -297,7 +327,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/projects/voyagelk.jpg"),
+      image: voyagelk,
       projectName: "Voyage LK Mobile Application",
       projectDesc: "I developed a mobile application that helps travelers discover travel destinations and accommodations while enabling hotel owners to promote their properties. Built using Kotlin and Firebase, the app offers real-time data management and seamless user experiences. GitHub was used for version control, enhancing collaboration and project organization.",
       footerLink: [
@@ -308,7 +338,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/projects/petshop.png"),
+      image: petshop, 
       projectName: "Online Pet Clinic and Pet Accessory Shop Management",
       projectDesc: "I developed a fully functional full-stack web application for a pet clinic in Dehiwala, enabling appointment management, pet records, and service tracking. Leveraging the MERN stack, I collaborated with a team, participated in requirement gathering, and utilized GitHub for version control. The project enhanced my full-stack development and teamwork skills.",
       footerLink: [
@@ -319,7 +349,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/projects/miniport.png"),
+      image: miniport, 
       projectName: "Responsive Portfolio Website Template",
       projectDesc: "Designed a modern, responsive web page using HTML, CSS, and JavaScript to showcase personal and professional achievements, featuring a clean, professional layout that highlights skills, projects, and accomplishments effectively.",
       footerLink: [
@@ -330,14 +360,13 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Certificates and Courses 🏆 "),
+  title: emoji("Certificates and Courses"),
   subtitle:
     "Certifications that I have done !",
 
@@ -346,7 +375,7 @@ const achievementSection = {
       title: "AWS Academy Cloud Foundations",
       subtitle:
         "Completed foundational training in AWS cloud concepts, core services, architecture, and best practices.",
-      image: require("./assets/images/aws.jpg"),
+      image: awsCert,
       imageAlt: "AWS Academy Cloud Foundations Logo",
       footerLink: [
         {
@@ -359,7 +388,7 @@ const achievementSection = {
       title: "MongoDB Certified",
       subtitle:
         "Demonstrated proficiency in building and maintaining applications using MongoDB, including data modeling, queries, aggregation, and performance optimization.",
-      image: require("./assets/images/mongodb.jpg"),
+      image: mongodbCert,
       imageAlt: "MongoDB Logo",
       footerLink: [
         {
@@ -372,7 +401,7 @@ const achievementSection = {
     {
       title: "MongoDB Transactions",
       subtitle: "Gained practical knowledge of implementing and managing multi-document transactions in MongoDB to ensure data consistency and reliability in complex applications.",
-      image: require("./assets/images/mongodb.jpg"),
+      image: mongodbCert,
       imageAlt: "MongoDB Logo",
       footerLink: [
         {
@@ -382,63 +411,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Blogs Section
-
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Resume Section
@@ -446,20 +419,20 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me "),
   subtitle:
     "Let's craft smooth, responsive, and eye-catching designs drop me a line!",
   number: "+94 077 923 3384",
-  email_address: "sithuminiprathiba@gmail.com"
+  email_address: "sithuminiprathiba@gmail.com",
+  animated: contactSplash
 };
 
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; 
 
 export {
   illustration,
@@ -468,15 +441,11 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
-  openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
   isHireable,
   resumeSection
+  
 };
