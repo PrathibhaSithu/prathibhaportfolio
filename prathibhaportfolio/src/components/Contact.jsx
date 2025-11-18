@@ -15,7 +15,7 @@ export default function Contact() {
     >
       {/* LEFT: Code Editor Styled Contact Card */}
       <div className="reveal flex justify-center">
-        <div className="relative rounded-lg bg-slate-900 p-2 w-full">
+        <div className="relative rounded-4xl bg-slate-900 p-2 w-full">
 
           {/* --- HEADER WITH DOTS --- */}
           <div className="relative flex text-center">
@@ -88,18 +88,18 @@ export default function Contact() {
             {/* Phone */}
             <p className="ml-3 text-violet-400">
               <span className="text-slate-500">&lt;</span>
-              <span className="text-pink-400">Phone</span>
+              <span className="text-pink-400"> Phone </span>
               <span className="text-slate-500">&gt;</span>
 
               <span className="relative inline-block px-1 before:absolute before:-inset-0.5 
                 before:block before:rounded before:bg-blue-500/10">
-                <span className="relative text-blue-400">
+                <span className="relative text-blue-400 text-lg">
                   {contactInfo?.number}
                 </span>
               </span>
 
               <span className="text-slate-500">&lt;/</span>
-              <span className="text-pink-400">Phone</span>
+              <span className="text-pink-400"> Phone </span>
               <span className="text-slate-500">&gt;</span>
             </p>
 
@@ -111,7 +111,7 @@ export default function Contact() {
 
               <span className="relative inline-block px-1 before:absolute before:-inset-0.5 
                 before:block before:rounded before:bg-blue-500/10">
-                <span className="relative text-blue-400">
+                <span className="relative text-blue-400 text-lg">
                   {contactInfo?.number}
                 </span>
               </span>
