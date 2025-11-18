@@ -9,7 +9,7 @@ export default function Contact() {
 
   return (
     <section
-      className="grid md:grid-cols-2 gap-1 items-center py-1"
+      className="grid md:grid-cols-[1.5fr_1.2fr] gap-6 items-start py-1"
       ref={ref}
       id="contact"
     >
