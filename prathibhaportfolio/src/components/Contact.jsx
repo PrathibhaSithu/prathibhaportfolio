@@ -135,30 +135,12 @@ export default function Contact() {
               </span>
 
               <span className="text-slate-500">&lt;/</span>
-              <span className="text-pink-400 ">📧</span>
+              <span className="text-pink-400 "> 📧 </span>
               <span className="text-slate-500">&gt;</span>
             </p>
 
-            {/* Description */}
-            {/* <p className="ml-3 text-violet-400 leading-4">
-              <span className="text-slate-500">&lt;</span>
-              <span className="text-pink-400">Description</span>
-              <span className="text-slate-500">&gt;</span>
-
-              <span className="relative inline-block px-1 before:absolute before:-inset-0.5 
-                before:block before:rounded before:bg-blue-500/10">
-                <span className="relative text-blue-400">
-                  {contactInfo?.subTitle}
-                </span>
-              </span>
-
-              <span className="text-slate-500">&lt;/</span>
-              <span className="text-pink-400">Description</span>
-              <span className="text-slate-500">&gt;</span>
-            </p> */}
-
             {/* </Contact> */}
-            <p className="text-violet-400">
+            <p className="text-violet-400 text-sm">
               <span className="text-slate-500">&lt;/</span>
               <span className="text-pink-400">Contact</span>
               <span className="text-slate-500">&gt;</span>
