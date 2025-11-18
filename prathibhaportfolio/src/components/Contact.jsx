@@ -21,15 +21,15 @@ export default function Contact() {
           <div className="relative flex text-center">
             <div className="flex pl-3.5 pt-3">
               <svg viewBox="0 0 24 24" fill="currentColor"
-                className="-ml-0.5 mr-1.5 h-3 w-3 text-red-500/20">
+                className="-ml-0.5 mr-1.5 h-3 w-3 text-red-500">
                 <circle r="12" cy="12" cx="12"></circle>
               </svg>
               <svg viewBox="0 0 24 24" fill="currentColor"
-                className="-ml-0.75 mr-1.5 h-3 w-3 text-yellow-500/20">
+                className="-ml-0.75 mr-1.5 h-3 w-3 text-yellow-500">
                 <circle r="12" cy="12" cx="12"></circle>
               </svg>
               <svg viewBox="0 0 24 24" fill="currentColor"
-                className="-ml-0.75 mr-1.5 h-3 w-3 text-green-500/20">
+                className="-ml-0.75 mr-1.5 h-3 w-3 text-green-500">
                 <circle r="12" cy="12" cx="12"></circle>
               </svg>
             </div>
@@ -152,20 +152,28 @@ export default function Contact() {
             <SocialMedia />
           </div>
 
-          {/* RESUME BUTTON */}
-          {greeting?.resumeLink && (
-            <div className="mt-6 px-5">
+          {/* Resume & GitHub */}
+          <div className="mt-6 flex items-center gap-4">
+              {greeting?.resumeLink && (
               <a
-                href={greeting.resumeLink}
-                target="_blank"
-                rel="noreferrer"
-                className="px-4 py-2 border border-blue-500 text-blue-400
-                          rounded-lg font-mono text-xs hover:bg-blue-500/10"
+                  href={greeting.resumeLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="relative group cursor-pointer"
               >
-                Download Resume
+                  <div className="relative px-8 py-4 border-2 border-blue-500 text-blue-500 font-bold text-lg rounded-lg transform transition-all duration-300 group-hover:translate-y-1 group-hover:translate-x-1 shadow-[6px_6px_10px_rgba(0,0,0,0.6),-6px_-6px_10px_rgba(255,255,255,0.1)] group-hover:shadow-[8px_8px_15px_rgba(0,0,0,0.8),-8px_-8px_15px_rgba(255,255,255,0.15)]">
+                      Download My Resume
+                  </div>
+
+                  <div className="absolute inset-0 border-2 border-dashed border-blue-500 rounded-lg opacity-50 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                  <div className="absolute -top-2 -right-2 w-4 h-4 bg-blue-500 rounded-full animate-ping shadow-lg"></div>
+                  <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-blue-500 rounded-full animate-ping shadow-lg"></div>
+                  <div className="absolute top-1/3 left-3 w-3 h-3 bg-blue-400 rounded-full animate-ping opacity-70"></div>
+                  <div className="absolute top-2/3 right-3 w-3 h-3 bg-blue-400 rounded-full animate-ping opacity-70"></div>
               </a>
-            </div>
-          )}
+              )}        
+          </div>
         </div>
       </div>
 
