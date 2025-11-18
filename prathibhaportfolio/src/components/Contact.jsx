@@ -63,25 +63,25 @@ export default function Contact() {
               </span>
 
               <span className="text-slate-500">&lt;/</span>
-              <span className="text-pink-400">💌</span>
+              <span className="text-pink-400"> 💌</span>
               <span className="text-slate-500">&gt;</span>
             </p>
 
             {/* Subtitle */}
-            <p className="ml-3 leading-4 text-violet-400 text-sm">
+            <p className="ml-3 leading-4 text-violet-400 text-md">
               <span className="text-slate-500">&lt;</span>
-              <span className="text-pink-400">Subtitle</span>
+              <span className="text-pink-400"> Why Contact Me </span>
               <span className="text-slate-500">&gt;</span>
 
-              <span className="relative inline-block px-1 before:absolute before:-inset-0.5 
+              <span className="relative mt-1 mb-1 inline-block px-1 before:absolute before:-inset-0.5 
                 before:block before:rounded before:bg-blue-500/10">
-                <span className="relative text-blue-400 text-lg">
+                <span className="relative text-blue-400  text-lg">
                   {contactInfo?.subtitle}
                 </span>
               </span>
 
               <span className="text-slate-500">&lt;/</span>
-              <span className="text-pink-400">Subtitle</span>
+              <span className="text-pink-400"> 👩🏼‍💻❤️ </span>
               <span className="text-slate-500">&gt;</span>
             </p>
 
