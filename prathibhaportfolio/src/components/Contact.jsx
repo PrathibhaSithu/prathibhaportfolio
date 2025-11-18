@@ -26,7 +26,7 @@ export default function Contact() {
             </div>
 
             <span className="absolute inset-x-0 top-2 text-xs text-slate-500">
-                ContactMe.tsx
+                ~/prathibha-portfolio
             </span>
         </div>
 
