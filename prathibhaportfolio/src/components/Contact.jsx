@@ -34,17 +34,17 @@ export default function Contact() {
               </svg>
             </div>
 
-            <span className="absolute inset-x-0 top-2 text-xs text-slate-500">
+            <span className="absolute inset-x-0 top-2 text-sm text-slate-400">
               ~/prathibha-portfolio/contact.tsx
             </span>
           </div>
 
           {/* --- CONTENT (converted to code-style lines) --- */}
-          <div className="mt-5 space-y-1.5 px-5 pb-10 font-mono text-xs tracking-wide">
+          <div className="mt-8 space-y-2 px-8 pb-10 font-mono text-m tracking-wide">
 
             {/* <Contact> */}
-            <p className="text-violet-400">
-              <span className="text-slate-500">&lt;</span>
+            <p className="text-violet-400 text-sm">
+              <span className="text-slate-500 ">&lt;</span>
               <span className="text-pink-400">Contact</span>
               <span className="text-slate-500">&gt;</span>
             </p>
@@ -52,30 +52,30 @@ export default function Contact() {
             {/* Title */}
             <p className="ml-3 text-violet-400">
               <span className="text-slate-500">&lt;</span>
-              <span className="text-pink-400">Title</span>
+              <span className="text-pink-400">📞</span>
               <span className="text-slate-500">&gt;</span>
 
               <span className="relative inline-block px-1 before:absolute before:-inset-0.5 
                 before:block before:rounded before:bg-blue-500/10">
-                <span className="relative text-blue-400">
+                <span className="relative text-blue-400 text-lg">
                   {contactInfo?.title}
                 </span>
               </span>
 
               <span className="text-slate-500">&lt;/</span>
-              <span className="text-pink-400">Title</span>
+              <span className="text-pink-400">💌</span>
               <span className="text-slate-500">&gt;</span>
             </p>
 
             {/* Subtitle */}
-            <p className="ml-3 leading-4 text-violet-400">
+            <p className="ml-3 leading-4 text-violet-400 text-sm">
               <span className="text-slate-500">&lt;</span>
               <span className="text-pink-400">Subtitle</span>
               <span className="text-slate-500">&gt;</span>
 
               <span className="relative inline-block px-1 before:absolute before:-inset-0.5 
                 before:block before:rounded before:bg-blue-500/10">
-                <span className="relative text-blue-400">
+                <span className="relative text-blue-400 text-lg">
                   {contactInfo?.subtitle}
                 </span>
               </span>
