@@ -166,12 +166,12 @@ export default function Contact() {
           </div>
 
           {/* SOCIAL MEDIA */}
-          <div className="mt-3 px-5">
+          <div className="justify-center flex ">
             <SocialMedia />
           </div>
 
           {/* Resume & GitHub */}
-          <div className="mt-6 flex items-center gap-4">
+          <div className="mt-6 justify-center flex items-center gap-4 mb-6">
               {greeting?.resumeLink && (
               <a
                   href={greeting.resumeLink}
