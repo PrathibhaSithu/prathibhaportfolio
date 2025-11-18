@@ -9,12 +9,12 @@ export default function Contact() {
 
   return (
     <section
-      className="grid md:grid-cols-2 gap-4 items-center py-1"
+      className="grid md:grid-cols-2 gap-1 items-center py-1"
       ref={ref}
       id="contact"
     >
       {/* LEFT: Code Editor Styled Contact Card */}
-      <div className="reveal flex justify-center">
+      <div className="reveal flex justify-center ">
         <div className="relative rounded-4xl bg-slate-900 p-2 w-full">
 
           {/* --- HEADER WITH DOTS --- */}
@@ -106,7 +106,7 @@ export default function Contact() {
             {/* Whatsapp */}
             <p className="ml-3 text-violet-400">
               <span className="text-slate-500">&lt;</span>
-              <span className="text-pink-400">Whatsapp</span>
+              <span className="text-pink-400"> Whatsapp </span>
               <span className="text-slate-500">&gt;</span>
 
               <span className="relative inline-block px-1 before:absolute before:-inset-0.5 
@@ -117,30 +117,30 @@ export default function Contact() {
               </span>
 
               <span className="text-slate-500">&lt;/</span>
-              <span className="text-pink-400">Whatsapp</span>
+              <span className="text-pink-400"> Whatsapp </span>
               <span className="text-slate-500">&gt;</span>
             </p>
 
             {/* Email */}
             <p className="ml-3 text-violet-400 leading-4">
               <span className="text-slate-500">&lt;</span>
-              <span className="text-pink-400">Email</span>
+              <span className="text-pink-400"> Email </span>
               <span className="text-slate-500">&gt;</span>
 
               <span className="relative inline-block px-1 before:absolute before:-inset-0.5 
                 before:block before:rounded before:bg-blue-500/10">
-                <span className="relative text-blue-400">
+                <span className="relative text-blue-400 text-lg">
                   {contactInfo?.email_address}
                 </span>
               </span>
 
               <span className="text-slate-500">&lt;/</span>
-              <span className="text-pink-400">Email</span>
+              <span className="text-pink-400 ">📧</span>
               <span className="text-slate-500">&gt;</span>
             </p>
 
             {/* Description */}
-            <p className="ml-3 text-violet-400 leading-4">
+            {/* <p className="ml-3 text-violet-400 leading-4">
               <span className="text-slate-500">&lt;</span>
               <span className="text-pink-400">Description</span>
               <span className="text-slate-500">&gt;</span>
@@ -155,7 +155,7 @@ export default function Contact() {
               <span className="text-slate-500">&lt;/</span>
               <span className="text-pink-400">Description</span>
               <span className="text-slate-500">&gt;</span>
-            </p>
+            </p> */}
 
             {/* </Contact> */}
             <p className="text-violet-400">
