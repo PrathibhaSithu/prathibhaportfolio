@@ -40,7 +40,7 @@ const greeting = {
   greet: "Have a great day! ",
   animated: animatedSplash,
   subTitle: emoji(
-    "Dedicated Frontend Developer skilled in React.js, Vue.js, HTML, CSS, and Tailwind CSS, experienced in microservices architecture. AWS & Azure certified, passionate about performance, problem-solving, and creating seamless, scalable UI/UX experiences."
+    "Dedicated L1 Support Engineer with a strong foundation in troubleshooting, Windows environments, and application support. Experienced in handling user issues, remote desktop support, and ticket-based workflows with a customer-first mindset. Brings hands-on knowledge of web technologies and cloud fundamentals, supported by AWS and Azure certifications, enabling effective root-cause analysis and clear communication between users and technical teams. Passionate about problem-solving, system stability, and delivering reliable, high-quality IT support."
   ),
   resumeLink:
     "https://drive.google.com/file/d/19FB4gLOivxzngTj0tCjkt_2fevft4b4j/view?usp=drive_link", 
