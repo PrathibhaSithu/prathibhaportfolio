@@ -37,7 +37,7 @@ const illustration = {
 const greeting = {
   username: "Prathibha Sithumini",
   title: "Hello, I am",
-  greet: "Have a great day! ",
+  greet: "Support Engineer ",
   animated: animatedSplash,
   subTitle: emoji(
     "Dedicated L1 Support Engineer with a strong foundation in troubleshooting, Windows environments, and application support. Experienced in handling user issues, remote desktop support, and ticket-based workflows with a customer-first mindset. Brings hands-on knowledge of web technologies and cloud fundamentals, supported by AWS and Azure certifications, enabling effective root-cause analysis and clear communication between users and technical teams. Passionate about problem-solving, system stability, and delivering reliable, high-quality IT support."
