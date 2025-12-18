@@ -1,6 +1,7 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/Welcome Animation.json"; 
 import itmd from "./assets/images/itmd.png";
+import hcltech from "./assets/images/hcltech.jpg";
 import sliituni from "./assets/images/sliit.png";
 import vtaLogo from "./assets/images/vta.png"; 
 import sjbLogo from "./assets/images/sjb.jpg"; 
@@ -215,7 +216,7 @@ const workExperiences = {
     {
       role: "L1 Support Engineer",
       company: "HCL Tech Sri Lanka",
-      companylogo: itmd,
+      companylogo: hcltech,
       date: "December 2025 - Present",
       desc: "Provide L1 support for IT infrastructure and applications, troubleshoot and resolve technical issues, assist in maintaining system performance and security, and collaborate with cross-functional teams to ensure smooth operations",
       descBullets: [
