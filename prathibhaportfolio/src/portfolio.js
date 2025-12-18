@@ -213,6 +213,19 @@ const workExperiences = {
   display: true, 
   experience: [
     {
+      role: "L1 Support Engineer",
+      company: "HCL Tech Sri Lanka",
+      companylogo: itmd,
+      date: "December 2025 - Present",
+      desc: "Provide L1 support for IT infrastructure and applications, troubleshoot and resolve technical issues, assist in maintaining system performance and security, and collaborate with cross-functional teams to ensure smooth operations",
+      descBullets: [
+        "Provide L1 support for IT infrastructure and applications",
+        "Troubleshoot and resolve technical issues",
+        "Assist in maintaining system performance and security",
+        "Collaborate with cross-functional teams to ensure smooth operations"
+      ]
+    },
+    {
       role: "Frontend Developer",
       company: "ITMD - Finance Ministry Sri Lanka",
       companylogo: itmd,
